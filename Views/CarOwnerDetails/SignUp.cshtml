@@ -1,76 +1,75 @@
 ﻿@model OnlineCarParkingManagementDetails.Entity.CarOwnerDetails
-
 @{
     ViewBag.Title = "SignUp";
+    Layout = "~/Views/Shared/HomePage.cshtml";
 }
-
-<h2>SignUp</h2>
+<h2><i><mark>Sign Up</mark></i></h2>
 @using (Html.BeginForm("SignUp", "CarOwnerDetails", FormMethod.Post))
 {
-<table cellpadding="10">
-    <tr>
-        <td>
-            @Html.Label("Name")
-        </td>
-        <td>
-            @Html.TextBoxFor(Model => Model.name)
-        </td>
-    </tr>
-    <tr>
-        <td>
-            @Html.Label("Gender")
-        </td>
-        <td>
-            @Html.RadioButtonFor(Model => Model.gender, "male")Male
-            @Html.RadioButtonFor(Model => Model.gender, "female") Female
-        </td>
-    </tr>
-    <tr>
-        <td>
-            @Html.Label("Mobile Number")
-        </td>
-        <td>
-            @Html.TextBoxFor(Model => Model.mobileNo)
-        </td>
-    </tr>
-    <tr>
-        <td>
-            @Html.Label("Email")
-        </td>
-        <td>
-            @Html.TextBoxFor(Model => Model.emailId)
-        </td>
-    </tr>
-    <tr>
-        <td>
-            @Html.Label("Password")
-        </td>
-        <td>
-            @Html.PasswordFor(Model => Model.password)
-        </td>
-        }
-    </tr>
-    <tr>
-        <td>
-            @Html.Label("Conform Password")
-        </td>
-        <td>
-            @Html.PasswordFor(Model => Model.conformPassword)
-        </td>
-    </tr>
-    <tr>
-        <td>
-            @Html.Label("User Role")
-        </td>
-        <td>
-            @Html.EnumDropDownListFor(model => model.UserRole, "select a role")
-        </td>
-    </tr>
-    <tr>
-        <td>
-            <input type="submit" />
-        </td>
-    </tr>
-</table>
+    <table cellpadding="10">
+        <tr>
+            <td>
+                @Html.Label("Name")
+            </td>
+            <td>
+                @Html.TextBoxFor(Model => Model.name)
+            </td>
+        </tr>
+        <tr>
+            <td>
+                @Html.Label("Gender")
+            </td>
+            <td>
+                @Html.RadioButtonFor(Model => Model.gender, "male")Male
+                @Html.RadioButtonFor(Model => Model.gender, "female") Female
+            </td>
+        </tr>
+        <tr>
+            <td>
+                @Html.Label("Mobile Number")
+            </td>
+            <td>
+                @Html.TextBoxFor(Model => Model.mobileNo)
+            </td>
+        </tr>
+        <tr>
+            <td>
+                @Html.Label("Email")
+            </td>
+            <td>
+                @Html.TextBoxFor(Model => Model.emailId)
+            </td>
+        </tr>
+        <tr>
+            <td>
+                @Html.Label("Password")
+            </td>
+            <td>
+                @Html.PasswordFor(Model => Model.password)
+            </td>
+            }
+        </tr>
+        <tr>
+            <td>
+                @Html.Label("Conform Password")
+            </td>
+            <td>
+                @Html.PasswordFor(Model => Model.conformPassword)
+            </td>
+        </tr>
+        <tr>
+            <td>
+                @Html.Label("User Role")
+            </td>
+            <td>
+                @Html.EnumDropDownListFor(model => model.UserRole, "select a role")
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <input type="submit" />
+            </td>
+        </tr>
+    </table>
 }
 

@@ -34,9 +34,5 @@ namespace OnlineCarParkingManagementDetails.Controllers
             CarOwnerDetailsRepository.SignUp(carOwnerInfo);
             return View();
         }
-        public ActionResult HomePage()
-        {
-            return View();
-        }
     }
 }

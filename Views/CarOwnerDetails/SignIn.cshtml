@@ -2,10 +2,11 @@
 
 @{
     ViewBag.Title = "SignIn";
-    Layout = "~/Views/Shared/Index.cshtml";
+    Layout = "~/Views/Shared/HomePage.cshtml";
 }
 
-<h2>SignIn</h2>
+<h2><i><mark>Sign In</mark></i></h2>
+
 @using (Html.BeginForm("SignIn", "CarOwnerDetails", FormMethod.Post))
 {
     <table cellpadding="10">
@@ -32,5 +33,6 @@
         </tr>
     </table>
 }
+
 
 
