@@ -1,0 +1,36 @@
+﻿@model OnlineCarParkingManagementDetails.Entity.CarOwnerDetails
+
+@{
+    ViewBag.Title = "SignIn";
+    Layout = "~/Views/Shared/Index.cshtml";
+}
+
+<h2>SignIn</h2>
+@using (Html.BeginForm("SignIn", "CarOwnerDetails", FormMethod.Post))
+{
+    <table cellpadding="10">
+        <tr>
+            <td>
+                @Html.Label("User Name")
+            </td>
+            <td>
+                @Html.TextBoxFor(Model => Model.emailId)
+            </td>
+        </tr>
+        <tr>
+            <td>
+                @Html.Label("Password")
+            </td>
+            <td>
+                @Html.TextBoxFor(Model => Model.password)
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <input type="submit" />
+            </td>
+        </tr>
+    </table>
+}
+
+
