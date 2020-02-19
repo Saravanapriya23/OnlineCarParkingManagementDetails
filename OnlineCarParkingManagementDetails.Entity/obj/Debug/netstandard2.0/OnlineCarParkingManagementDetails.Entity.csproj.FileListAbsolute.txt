@@ -1,0 +1,8 @@
+D:\Aspire2020\OnlineCarParkingManagementDetails.Entity\bin\Debug\netstandard2.0\OnlineCarParkingManagementDetails.Entity.deps.json
+D:\Aspire2020\OnlineCarParkingManagementDetails.Entity\bin\Debug\netstandard2.0\OnlineCarParkingManagementDetails.Entity.dll
+D:\Aspire2020\OnlineCarParkingManagementDetails.Entity\bin\Debug\netstandard2.0\OnlineCarParkingManagementDetails.Entity.pdb
+D:\Aspire2020\OnlineCarParkingManagementDetails.Entity\obj\Debug\netstandard2.0\OnlineCarParkingManagementDetails.Entity.csprojAssemblyReference.cache
+D:\Aspire2020\OnlineCarParkingManagementDetails.Entity\obj\Debug\netstandard2.0\OnlineCarParkingManagementDetails.Entity.AssemblyInfoInputs.cache
+D:\Aspire2020\OnlineCarParkingManagementDetails.Entity\obj\Debug\netstandard2.0\OnlineCarParkingManagementDetails.Entity.AssemblyInfo.cs
+D:\Aspire2020\OnlineCarParkingManagementDetails.Entity\obj\Debug\netstandard2.0\OnlineCarParkingManagementDetails.Entity.dll
+D:\Aspire2020\OnlineCarParkingManagementDetails.Entity\obj\Debug\netstandard2.0\OnlineCarParkingManagementDetails.Entity.pdb
